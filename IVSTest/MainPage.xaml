@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IVSTest.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="IPAmjMincho Standard Gryph" />
+            <Label
+               x:Name="MyLabel1"
+               Text=""
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="48"
+               FontFamily="IPAmjMincho"
+           />
+            <Label Text="IPAmjMincho IVS Gryph (IVD: Moji_Joho)" />
+            <Label
+               x:Name="MyLabel2"
+               Text=""
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="48"
+               FontFamily="IPAmjMincho"
+               />
+            <Label Text="System Standard Gryph" />
+            <Label
+               x:Name="MyLabel3"
+               Text=""
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="48"
+            />
+            <Label Text="System IVS Gryph (IVD: Adobe-Japan1)" />
+            <Label
+               x:Name="MyLabel4"
+               Text=""
+               SemanticProperties.HeadingLevel="Level1"
+               FontSize="48"
+            />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
